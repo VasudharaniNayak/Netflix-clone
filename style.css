@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main 
+{
+    background-image: url("Images/bg.jpg");
+    height: 84vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1650px, 100vw);
+}
+
+.main .box {
+    height: 84vh;
+    width: 100%;
+    opacity: 0.55;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 62px;
+    padding-top: 20px;
+}
+
+.logo 
+{
+    width: 170px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button 
+{
+    position: relative;
+    z-index: 10;
+}
+
+.sign-in 
+{
+    width: 90px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgb(255, 2, 2);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+}
+
+.lang 
+{
+    width: 120px;
+    height: 36px;
+    color: rgb(252, 252, 252);
+    background-color: rgba(0, 0, 0, 0.32);
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0.583);
+    border-width: 0.1px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.text
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.line-1
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 750;
+    color: white;
+    font-size: 55px;
+    position: relative;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin-top: 150px;
+    position: relative;
+}
+
+.line-2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin-top: 15px;
+}
+
+.line-3
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin-top: 25px;
+}
+
+.inputs-start
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 3px;
+}
+
+.email-input
+{
+    background-color: rgba(0, 0, 0.66);
+    height: 60px;
+    width: 394px;
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0.583);
+    position: relative;
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    position: relative;
+    font-size: 17px;
+    padding: 11px 27px;
+    font-weight: 200;
+}
+
+.Watch
+{
+    color: white;
+    text-align: center;
+    font-weight: 550;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230,0,0);
+    cursor: pointer;
+    width: 230px;
+    height: 60px;
+    border-radius: 6px;
+    position: relative;
+    border: none;
+}
+
+.Watch svg
+{
+    margin-left: 8px;
+    rotate: 360deg;
+    align-items: center;
+    justify-content: center;
+}
+
+.seperation
+{
+    height: 8px;
+    background-color: rgba(128, 128, 128, 0.357);
+}
+
+.section-1
+{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    flex-direction: column;
+    flex-direction: row;
+    height: 500px;
+}
+
+.section-1-text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-1-img
+{
+    width: 30vw;
+    position: relative;
+}
+
+.sec-1-img img
+{
+    width: 37vw;
+    position: absolute;
+    z-index: 10;
+    margin-top: 26px;
+
+}
+
+.l-1
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 750;
+    color: white;
+    font-size: 55px;
+    margin-top: 170px;
+}
+
+.l-2 
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    width: 605px;
+
+}
+
+.sec-1-img video
+{
+    position: absolute;
+    top: 113px;
+    right: -29px;
+    width: 415px;
+}
+
+.section-2
+{
+    display: flex;
+    height: 500px;
+}
+
+.section-2-img
+{
+    margin-left: 60px;
+}
+
+.section-2-text-l-1
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 750;
+    color: white;
+    font-size: 55px;
+}
+
+
+.section-2-l-text-2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.section-4
+{
+    display: flex;
+    height: 500px;
+}
+
+.section-4-img
+{
+    margin-left: 60px;
+}
+
+.section-4-text-l-1
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 750;
+    color: white;
+    font-size: 55px;
+}
+
+
+.section-4-text-l-2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+}
+
+.sec-3-img image {
+    width: 37vw;
+    position: absolute;
+    z-index: 10;
+    margin-top: 26px;
+}
+
+.sec-3-img video 
+{
+    position: absolute;
+    top: 68px;
+    right: -3px;
+    width: 364px;
+}
+
+.question
+{
+    justify-content: center;
+    align-items: center;
+    height: 960px;
+    background-color: black;
+  
+}
+
+.main-text
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 750;
+    color: white;
+    font-size: 55px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    height: 90px;
+}
+
+
+
+.q1
+{
+    display: flex;
+    background-color: rgb(50, 49, 49);;
+    padding: 26px;
+    height: 35px;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 1070px;
+    margin: 10px auto;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+}
+
+.q1:hover {
+    background-color: rgb(69, 69, 69);
+    transition: all 0.27s ease-out;
+}
+
+
+.main-line
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+
+}
+
+.register
+{
+    margin-bottom: 70px;
+}
+
+footer
+{
+    color: gray;   
+    max-width: 76vw;
+    margin: auto;
+    padding: 64px;
+}
+
+.footer
+{
+    display: grid;
+    color: gray;
+    padding: 34px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer.number
+{
+    padding: 34px;
+    
+}
+
+.footer a
+{
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+
+.footer-item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
